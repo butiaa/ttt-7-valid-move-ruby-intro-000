@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def position_taken?(board, index)
-  if board[index] != '' or board[index] != ' ' or board[index] != nil
+  if board[index] != '' and board[index] != ' ' and board[index] != nil
     return true
   else
     return false
